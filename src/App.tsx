@@ -137,7 +137,7 @@ const handleSendMessage = async () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/download.png" 
+                src="public/download.png" 
                 alt="MJCET Logo" 
                 className="w-12 h-12 object-contain"
               />
