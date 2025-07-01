@@ -79,7 +79,7 @@ const handleSendMessage = async () => {
 
   setTimeout(async () => {
     try {
-      const response = await fetch('http://45.11.229.11:8000/ask', {
+      const response = await fetch('api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: currentInput }),
